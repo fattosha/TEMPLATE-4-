@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Archivo+Black&family=Cairo:wght@200..1000&family=Jomhuria&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Template4</title>
+</head>
+
+<body>
+    <aside>
+        <div class="elzerotitle">
+            <h3>Elzero</h3>
+        </div>
+        <ul>
+            <li>
+                <div>
+                    <i class="fa-regular fa-chart-bar"></i>
+
+                    <a href="Dashboard.html">
+                        <p>Dashboard</p>
+                    </a>
+
+                </div>
+            </li>
+            <li>
+                <div>
+                    <i class="fa-solid fa-gear"></i>
+                    <a href="Settings.html">
+                        <p>Settings</p>
+                    </a>
+
+
+                </div>
+            </li>
+            <li>
+                <div>
+                    <i class="fa-regular fa-user"></i>
+                    <a href="Profile.html">
+                        <p>Profile</p>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <i class="fa-solid fa-diagram-project"></i>
+
+                    <a href="Projects.html">
+                        <p>Projects</p>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <a href="Courses.html">
+                        <p>Courses </p>
+                    </a>
+
+                </div>
+            </li>
+            <li>
+                <div>
+                    <i class="fa-regular fa-circle-user"></i>
+                    <a href="Friends.html">
+                        <p>Friends</p>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <i class="fa-regular fa-file"></i>
+                    <a href="Files.html">
+                        <p>Files</p>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <i class="fa-regular fa-credit-card"></i>
+                    <a href="Plans.html">
+                        <p>Plans</p>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </aside>
+    <main>
+        <nav>
+            <div class="search">
+                <div class="icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <input type="text" placeholder="Type a Keyword">
+            </div>
+            <div class="bell">
+                <div> <i class="fa-regular fa-bell"></i></div>
+
+                <div><img src="image/avatar.png" alt=""></div>
+
+            </div>
+        </nav>
+        <section>
+            <div class="Settings">
+                <div class="titlem">
+                    <h1>Settings</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="grid">
+                    <div id="card1" class="card">
+                        <div class="flex">
+                            <div class="left">
+                                <div class="div">
+                                    <h2>Site Control</h2>
+                                    <div class="describtion">Control The Website If There Is Maintenance</div>
+                                </div>
+                                <div class="div">
+                                    <p>Website Control</p>
+                                    <div class="describtion">Open/Close Website And Type The Reason</div>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div> <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <form action="o.php">
+                            <textarea name="firsttext" id="txt" placeholder="close Message Content "></textarea>
+                        </form>
+
+                    </div>
+                    <div class="card">
+                        <h2>General Info</h2>
+                        <div class="describtion">General Information About Your Account</div>
+                        <form action="o.php">
+                            <div> <label class="name"><p class="describtion">First Name</p>
+                                    <input type="text" placeholder="First Name">
+                                   
+                                    </label>
+                            </div>
+                            <div> <label class="name"><p class="describtion">Last Name</p>
+                                    <input type="text" placeholder="Last Name">
+                                   
+                                    </label>
+                            </div>
+                            <div class="flex">
+
+                                <div> <label class="email"><p class="describtion">email</p>
+                                    <input type="email" disabled placeholder="o@nn.sa">
+                                   
+                                    </label>
+                                </div>
+                                <div class="change">
+                                    <p>change</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- start of card3 -->
+                    <div class="card" id="card3">
+                        <h2>Security Info</h2>
+                        <div class="describtion">
+                            <p>Security Information About Your Account</p>
+                            <div class="flexspace">
+                                <div>
+                                    <p class="Black">Password</p>
+                                    <div class="describtion">
+                                        <p>Last Change On 25/10/2021</p>
+                                    </div>
+                                </div>
+                                <div class="button">
+                                    <p>Devices</p>
+                                </div>
+                            </div>
+                            <div class="flexspace">
+                                <div>
+                                    <p class="Black">Two-Factor Authentication</p>
+                                    <div class="describtion">
+                                        <p>Enable/Disable The Feature</p>
+                                    </div>
+                                </div>
+                                <div> <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="flexspace">
+                                <div>
+                                    <p class="Black">Devices</p>
+                                    <div class="describtion">
+                                        <p>Check The Login Devices List</p>
+                                    </div>
+                                </div>
+                                <div class="button">
+                                    <p>Devices</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- start of card4 -->
+                    <div class="card" id="card4">
+                        <h2>Social Info</h2>
+                        <div class="describtion">Social Media Information</div>
+                        <form action="">
+                            <div class="ic">
+                                <i class="fa-brands fa-twitter"></i>
+
+                                </i><input type="text" placeholder="Twitter Username"></div>
+                            <div class="ic"><i class="fa-brands fa-facebook"></i><input type="text" placeholder="Facebook Username"></div>
+                            <div class="ic"> <i class="fa-brands fa-youtube"></i><input type="text" placeholder="Youtube Username"></div>
+                            <div class="ic"> <i class="fa-brands fa-linkedin"></i><input type="text" placeholder="Linkdin Username"></div>
+
+                        </form>
+                    </div>
+                    <!-- start of card5 -->
+                    <div class="card" id="card5">
+                        <h2>Widgets Control</h2>
+                        <div class="describtion">Show/Hide Widgets</div>
+                        <form action="   ">
+                            <div><input type="checkbox" checked>
+                                <label> Quick Draft</label>
+                            </div>
+                            <div><input type="checkbox" checked> <label>Yearly Targets</label>
+                            </div>
+                            <div><input type="checkbox" checked> <label>Tickets Statistics</label>
+                            </div>
+                            <div><input type="checkbox" checked> <label>Latest News</label>
+                            </div>
+                            <div><input type="checkbox" checked> <label>Latest Tasks</label>
+                            </div>
+                            <div><input type="checkbox" checked> <label>Top Search Items</label>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- end of card5 -->
+                    <!-- start of card6-->
+                    <div class="card" id="card6">
+                        <h2>Backup Manager</h2>
+                        <div class="describtion">Control Backup Time And Location</div>
+                        <form action="">
+                            <div><input type="radio" id="daily" name="time" checked>
+                                <label for="daily">Daily</label></div>
+
+                            <div> <input type="radio" id="weekly" name="time">
+                                <label for="weekly">Weekly</label></div>
+
+
+                            <div> <input type="radio" id="monthly" name="time">
+                                <label for="monthly">Monthly</label></div>
+                        </form>
+                        <div class="flex2">
+
+                            <div class="box">
+                                <div class="sicon"><i class="fa-solid fa-server"></i></div>
+                                <div>
+                                    <p>Megaman</p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="sicon"><i class="fa-solid fa-server"></i></div>
+                                <div>
+                                    <p>Zero</p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="icon"><i class="fa-solid fa-server"></i></div>
+                                <div>
+                                    <p>Segma</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of card6 -->
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
