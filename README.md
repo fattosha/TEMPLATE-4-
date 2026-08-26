@@ -1,8 +1,10 @@
-Template 4
+# Template 4
 
 A responsive dashboard website built using HTML and CSS, based on Elzero Web School's Template 4.
 
-✨ Features
+---
+
+## ✨ Features
 
 - Fully responsive design
 - Clean and modern dashboard layout
@@ -12,19 +14,24 @@ A responsive dashboard website built using HTML and CSS, based on Elzero Web Sch
 - Profile page
 - Friends page
 - Settings page
-- Responsive sidebar and navigation
 
-🛠️ Technologies
+---
+
+## 🛠️ Technologies
 
 - HTML5
 - CSS3
 - Font Awesome
 - Google Fonts
 
-🌐 Live Demo
+---
+
+## 🌐 Live Demo
 
 [View Live Demo](https://fattosha.github.io/TEMPLATE-4-/)
 
-📸 Preview
+---
 
-A responsive dashboard interface designed to provide a clean and organized user experience across different screen sizes.
+## 📸 Preview
+
+A responsive dashboard interface designed to provide a clean and organized user experience.
